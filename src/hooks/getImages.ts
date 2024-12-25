@@ -8,6 +8,8 @@ import exploreCard3 from '../assets/images/explore-card-3.svg';
 import exploreCard4 from '../assets/images/explore-card-4.gif';
 import exploreCardIcon from '../assets/images/card-explore-icon.svg';
 import ratingStar from '../assets/images/rating-star.svg';
+import expandBg from '../assets/images/expand-bg.svg';
+import expandBg2 from '../assets/images/expand-bg-2.svg';
 
 export const getImages = () => {
   return {
@@ -21,5 +23,7 @@ export const getImages = () => {
     exploreCard4,
     exploreCardIcon,
     ratingStar,
+    expandBg,
+    expandBg2,
   };
 };
