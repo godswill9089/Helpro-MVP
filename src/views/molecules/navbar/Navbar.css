@@ -1,0 +1,77 @@
+/* navbar */
+nav {
+  padding: 0rem 9.1rem;
+  min-height: 11rem;
+  height: 11rem;
+  background-color: transparent;
+}
+nav .wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 32.3rem;
+  margin: 0 auto;
+  height: 100%;
+  background-color: transparent;
+}
+
+nav .pages-btns-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1 1 0%;
+}
+nav .nav-links {
+  display: flex;
+  column-gap: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 6px;
+  border-radius: 4px;
+  background-color: transparent;
+  font-size: 1.8rem;
+  font-weight: 600;
+  /* font-family: inter; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.6rem;
+}
+nav .navlink-active {
+  color: #cd9929 !important;
+}
+nav .btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2rem;
+}
+nav button {
+  border: 0;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  /* background: var(--primary); */
+}
+nav button.log-in {
+  background-color: #e7eccc;
+  color: #cd9929;
+  border: 1px solid #cd9929;
+}
+nav button.sign-up {
+  background-color: #cd9929;
+  color: #fff;
+  border: 1px solid #cd9929;
+}
+nav button .icon {
+  color: #000000;
+}

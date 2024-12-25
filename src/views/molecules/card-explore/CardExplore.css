@@ -1,0 +1,50 @@
+.card-explore {
+  min-width: 45.2rem;
+  width: 45.2rem;
+  max-width: 45.2rem !important;
+  min-height: 38.3rem;
+  height: 38.3rem;
+  max-height: 38.3rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0rem 2.6rem;
+  /* Ensures padding and borders are included in the width/height */
+}
+.card-explore.card-explore-1 {
+  background-color: #eee8e2;
+}
+.card-explore.card-explore-2 {
+  background-color: #e1e7e0;
+}
+.card-explore.card-explore-3 {
+  background-color: #e6f4f5;
+}
+.card-explore.card-explore-4 {
+  background-color: #ecdbea;
+}
+.card-explore .img-con {
+  min-height: 21.9rem;
+  height: 21.9rem;
+  margin-bottom: 1.3rem;
+  /* margin-bottom: 2rem; */
+}
+.card-explore .img-con img {
+  height: 100%;
+}
+.card-explore .details {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  min-height: 5.7rem;
+  height: 5.7rem;
+}
+.card-explore .details h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.card-explore .details p {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
