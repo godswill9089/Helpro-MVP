@@ -13,6 +13,7 @@ import expandBg2 from '../assets/images/expand-bg-2.svg';
 import expandImg from '../assets/images/expand-img.svg';
 import userSeeing from '../assets/images/user-seeing.svg';
 import verifiedTick from '../assets/images/verified-tick.svg';
+import sitBackImg from '../assets/images/sit-back-img.svg';
 
 export const getImages = () => {
   return {
@@ -31,5 +32,6 @@ export const getImages = () => {
     expandImg,
     userSeeing,
     verifiedTick,
+    sitBackImg,
   };
 };
