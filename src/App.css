@@ -12,7 +12,8 @@ body {
   /* padding: 20px; */
   font-family: 'Poppins';
   height: 100vh;
-  font-family: 'Noto Sans Gothic', serif;
+  /* font-family: 'Noto Sans Gothic', serif; */
+  font-family: 'Gothic A1', serif;
   font-style: normal;
   /* font-optical-sizing: auto; */
 }

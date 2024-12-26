@@ -18,6 +18,9 @@ import envelope from '../assets/images/envelope.svg';
 import circleMinus from '../assets/images/circle-minus.svg';
 import circlePlus from '../assets/images/circle-plus.svg';
 import bannerProducts from '../assets/images/banner-products-img.svg';
+import howItWorks1 from '../assets/images/how-it-works-1.svg';
+import howItWorks2 from '../assets/images/how-it-works-2.svg';
+import howItWorks3 from '../assets/images/how-it-works-3.svg';
 
 export const getImages = () => {
   return {
@@ -41,5 +44,8 @@ export const getImages = () => {
     circleMinus,
     circlePlus,
     bannerProducts,
+    howItWorks1,
+    howItWorks2,
+    howItWorks3,
   };
 };

@@ -1,0 +1,101 @@
+.how-it-works {
+  background: url('../../../assets/images/how-it-works-bg.svg');
+  background-size: cover; /* Makes the image cover the entire section */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+  min-height: 66.1rem;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.how-it-works .wrapper {
+  padding: 5.7rem 16.3rem 9.2rem;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.how-it-works .img-wrapper {
+  width: 50%;
+  padding: 0 4.3rem;
+}
+
+.how-it-works .img-wrapper .img-con {
+  width: 46.2rem;
+  height: 51.2rem;
+  min-width: 46.2rem;
+  min-height: 51.2rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background-color: #fff;
+  overflow: hidden;
+}
+.how-it-works .img-wrapper .img-con img {
+  width: 42rem;
+  height: 47.2rem;
+  min-width: 42rem;
+  min-height: 47.2rem;
+  margin-bottom: -3rem;
+}
+
+.how-it-works .details {
+  width: 50%;
+}
+.how-it-works .details .title {
+  color: #000000;
+  font-size: 4rem;
+  font-family: 'Didact Gothic', serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 1.9rem;
+}
+.how-it-works .details .info {
+  font-size: 1.8rem;
+  color: #868787;
+  margin-bottom: 1.9rem;
+  font-family: 'Gothic A1', serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.3px;
+}
+.how-it-works .steps {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.9rem;
+  margin-bottom: 3rem;
+}
+.how-it-works .step {
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+  width: 45.8rem;
+}
+.how-it-works .step .img-con {
+  min-width: 6.8rem;
+  min-height: 6.8rem;
+  width: 6.8rem;
+  height: 6.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 2rem;
+}
+.how-it-works .step img {
+}
+.how-it-works .step .details-step {
+}
+.how-it-works .step .title-step {
+  color: #000000;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+}
+.how-it-works .step .info-step {
+  color: #000000;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
