@@ -11,6 +11,8 @@ import ratingStar from '../assets/images/rating-star.svg';
 import expandBg from '../assets/images/expand-bg.svg';
 import expandBg2 from '../assets/images/expand-bg-2.svg';
 import expandImg from '../assets/images/expand-img.svg';
+import userSeeing from '../assets/images/user-seeing.svg';
+import verifiedTick from '../assets/images/verified-tick.svg';
 
 export const getImages = () => {
   return {
@@ -27,5 +29,7 @@ export const getImages = () => {
     expandBg,
     expandBg2,
     expandImg,
+    userSeeing,
+    verifiedTick,
   };
 };

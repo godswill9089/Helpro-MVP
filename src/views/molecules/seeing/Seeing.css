@@ -1,0 +1,109 @@
+.seeing {
+  background-color: #fff8f2;
+  padding: 4rem 9.5rem;
+}
+.seeing .title {
+  color: #000000;
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 3.1rem;
+}
+.seeing .info {
+  color: #000000;
+  font-size: 2.2rem;
+  text-align: center;
+  font-family: 'Gothic A1', serif;
+  font-weight: 100;
+  margin-bottom: 3.9rem;
+}
+.seeing .cards-seeing {
+  display: flex;
+  align-items: center;
+  column-gap: 3.2rem;
+  overflow-x: scroll;
+  scrollbar-width: none; /* Hides scrollbar */
+  -ms-overflow-style: none; /* For Internet Explorer 10+ */
+}
+.seeing .cards-seeing::-webkit-scrollbar {
+  display: none; /* Hides scrollbar in WebKit-based browsers (e.g., Chrome, Edge, Safari) */
+}
+
+.seeing .card-seeing {
+  min-width: 33.4rem;
+  min-height: 23.1rem;
+  width: 33.4rem;
+  height: 23.1rem;
+  background-color: #fff;
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2rem;
+}
+.seeing .card-seeing .img-con {
+  min-width: 4.8rem;
+  min-height: 4.8rem;
+  width: 4.8rem;
+  height: 4.8rem;
+  position: relative;
+  align-self: center;
+  margin-bottom: 1.5;
+  /* display: flex;
+  align-items: center; */
+}
+.seeing .card-seeing .img-con .user {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.seeing .card-seeing .img-con .verified {
+  min-width: 1.6rem;
+  min-height: 1.6rem;
+  width: 1.6rem;
+  height: 1.6rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.seeing .card-seeing .name {
+  margin-bottom: 1rem;
+  color: #344054;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  font-family: 'Inter', serif;
+  font-optical-sizing: auto;
+}
+.seeing .card-seeing .card-info {
+  margin-bottom: 2.8rem;
+  color: #667085;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.8rem;
+  font-family: 'Inter', serif;
+  font-optical-sizing: auto;
+}
+.seeing .rating-wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+.seeing .number {
+  color: #5b5b5b;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.seeing .stars {
+  display: flex;
+  align-items: center;
+  column-gap: 0.1rem;
+}
+.seeing .star {
+  min-width: 1.6rem;
+  min-height: 1.6rem;
+  width: 1.6rem;
+  height: 1.6rem;
+}

@@ -38,7 +38,8 @@
   border-radius: 0.6rem;
   font-size: 1.8rem;
   font-weight: 600;
-  font-family: inter;
+  font-family: 'Inter', serif;
+  font-optical-sizing: auto;
   cursor: pointer;
   background-color: #fff;
   border: 1px solid #d0d5dd;
@@ -168,4 +169,3 @@
   display: flex;
   justify-content: center;
 }
-
