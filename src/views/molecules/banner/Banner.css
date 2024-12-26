@@ -1,4 +1,4 @@
-.banner-contact-us {
+.banner-main {
   background: url('../../../assets/images/banner-contact-bg.svg');
   background-size: cover; /* Makes the image cover the entire section */
   background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -7,7 +7,7 @@
   margin-top: -11rem;
   height: 46.9rem;
 }
-.banner-contact-us .banner {
+.banner-main .banner {
   border-top: 1px solid #e1d7c5;
   padding: 0 5.3rem;
   display: flex;
@@ -18,13 +18,13 @@
   height: 100%;
 }
 
-.banner-contact-us .banner .title {
+.banner-main .banner .title {
   /* color: #cd9929; */
-  font-size: 4.4rem;
+  font-size: 6.4rem;
   font-weight: 700;
 }
 
-.banner-contact-us .info {
+.banner-main .info {
   color: #868787;
   font-size: 1.9rem;
   font-weight: 400;

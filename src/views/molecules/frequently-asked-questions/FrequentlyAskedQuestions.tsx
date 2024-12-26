@@ -36,6 +36,7 @@ const FrequentlyAskedQuestions = () => {
     qstn: '',
     answer: '',
   });
+
   return (
     <div className='frequently-asked-questions'>
       <div className='container'>

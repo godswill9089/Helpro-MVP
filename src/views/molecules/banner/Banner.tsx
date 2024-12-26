@@ -6,7 +6,7 @@ interface IProps {
 }
 const Banner = ({ title, info }: IProps) => {
   return (
-    <div className='banner-contact-us'>
+    <div className='banner-main'>
       <div className='banner'>
         <h1 className='title'>{title}</h1>
         <p className='info'>{info}</p>

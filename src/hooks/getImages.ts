@@ -17,6 +17,7 @@ import sitBackImg from '../assets/images/sit-back-img.svg';
 import envelope from '../assets/images/envelope.svg';
 import circleMinus from '../assets/images/circle-minus.svg';
 import circlePlus from '../assets/images/circle-plus.svg';
+import bannerProducts from '../assets/images/banner-products-img.svg';
 
 export const getImages = () => {
   return {
@@ -39,5 +40,6 @@ export const getImages = () => {
     envelope,
     circleMinus,
     circlePlus,
+    bannerProducts,
   };
 };
