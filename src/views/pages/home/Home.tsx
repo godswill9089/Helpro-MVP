@@ -5,6 +5,7 @@ import ExploreOurServices from '../../molecules/explore-our-services/ExploreOurS
 import Expand from '../../molecules/expand/Expand';
 import Seeing from '../../molecules/seeing/Seeing';
 import SitBack from '../../molecules/sit-back/SitBack';
+import Footer from '../../molecules/footer/Footer';
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       <Expand />
       <Seeing />
       <SitBack />
+      <Footer />
     </div>
   );
 }
