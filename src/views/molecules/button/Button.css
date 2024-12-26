@@ -1,0 +1,17 @@
+.btn-main {
+  width: 35.6rem;
+  height: 5.8rem;
+  border-radius: 1rem;
+  font-family: 'Inter', serif;
+  font-optical-sizing: auto;
+  font-size: 1.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid #cd9929;
+  background-color: #cd9929;
+  color: #fff;
+}
+.btn-main.outline {
+  background-color: #fff;
+  color: #cd9929;
+}

@@ -10,6 +10,7 @@ import exploreCardIcon from '../assets/images/card-explore-icon.svg';
 import ratingStar from '../assets/images/rating-star.svg';
 import expandBg from '../assets/images/expand-bg.svg';
 import expandBg2 from '../assets/images/expand-bg-2.svg';
+import expandImg from '../assets/images/expand-img.svg';
 
 export const getImages = () => {
   return {
@@ -25,5 +26,6 @@ export const getImages = () => {
     ratingStar,
     expandBg,
     expandBg2,
+    expandImg,
   };
 };

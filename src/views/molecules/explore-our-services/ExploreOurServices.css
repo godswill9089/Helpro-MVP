@@ -168,15 +168,4 @@
   display: flex;
   justify-content: center;
 }
-.explore-our-services button.see-all {
-  width: 35.6rem;
-  height: 5.8rem;
-  border-radius: 1rem;
-  border: none;
-  background-color: #cd9929;
-  color: #fff;
-  font-family: 'Inter', serif;
-  font-optical-sizing: auto;
-  font-size: 1.8rem;
-  font-weight: 600;
-}
+

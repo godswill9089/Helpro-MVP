@@ -4,6 +4,7 @@ import { getImages } from '../../../hooks/getImages';
 
 import CardExplore from '../card-explore/CardExplore';
 import { FaStar } from 'react-icons/fa';
+import Button from '../button/Button';
 
 const ExploreOurServices = () => {
   const { exploreCardIcon, ratingStar } = getImages();
@@ -141,7 +142,7 @@ const ExploreOurServices = () => {
         </div>
       </div>
       <div className='btn-wrapper'>
-        <button className='see-all'>See all</button>
+        <Button text='See more' onClick={() => {}} />
       </div>
     </div>
   );
