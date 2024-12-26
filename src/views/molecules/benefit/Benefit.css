@@ -1,0 +1,70 @@
+.benefit {
+  background-color: #fff;
+  padding: 6.5rem 9rem;
+}
+.benefit .title {
+  font-size: 4rem;
+  font-weight: 900;
+  font-style: normal;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.benefit .info {
+  font-size: 2.2rem;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #868787;
+  margin-bottom: 4.9rem;
+}
+.benefit .cards-benefit {
+  display: flex;
+  column-gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+.benefit .card-benefit {
+  width: 40rem;
+}
+.benefit .card-benefit .card-main {
+  width: 40rem;
+  /* height: 19.716rem; */
+  height: 17rem;
+  border: 1.8rem solid #599b56;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -5px -5px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  row-gap: 1.3rem;
+  padding: 0 2.5rem;
+}
+.benefit .card-benefit .card-main .card-title {
+  color: #000000;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.benefit .card-benefit .card-main .card-info {
+  color: #000000;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 120%;
+}
+.benefit .card-benefit .bottom-1 {
+  width: 96%;
+  margin: 0 auto;
+  height: 1.5rem;
+  background-color: #345e32;
+  border-radius: 0 0 1rem 1rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -5px -5px 10px rgba(0, 0, 0, 0.1);
+}
+.benefit .card-benefit .bottom-2 {
+  width: 92%;
+  margin: 0 auto;
+  height: 1.5rem;
+  background-color: #144212;
+  border-radius: 0 0 1rem 1rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -5px -5px 10px rgba(0, 0, 0, 0.1);
+}

@@ -7,16 +7,17 @@ import SitBack from '../../molecules/sit-back/SitBack';
 import Footer from '../../molecules/footer/Footer';
 import './Products.css';
 import BannerProducts from '../../molecules/banner-products/BannerProducts';
+import Benefit from '../../molecules/benefit/Benefit';
 
 function Products() {
   return (
     <div className='products'>
       <BannerProducts />
-      <Explore />
-      <ExploreOurServices />
+      <Benefit />
+      {/* <ExploreOurServices />
       <Expand />
       <Seeing />
-      <SitBack />
+      <SitBack /> */}
       <Footer />
     </div>
   );
