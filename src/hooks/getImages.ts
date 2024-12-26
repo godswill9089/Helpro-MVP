@@ -15,6 +15,8 @@ import userSeeing from '../assets/images/user-seeing.svg';
 import verifiedTick from '../assets/images/verified-tick.svg';
 import sitBackImg from '../assets/images/sit-back-img.svg';
 import envelope from '../assets/images/envelope.svg';
+import circleMinus from '../assets/images/circle-minus.svg';
+import circlePlus from '../assets/images/circle-plus.svg';
 
 export const getImages = () => {
   return {
@@ -35,5 +37,7 @@ export const getImages = () => {
     verifiedTick,
     sitBackImg,
     envelope,
+    circleMinus,
+    circlePlus,
   };
 };

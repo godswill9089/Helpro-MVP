@@ -1,0 +1,86 @@
+.frequently-asked-questions {
+  background-color: #fff;
+  padding: 6.3rem 0;
+}
+.frequently-asked-questions .container {
+  max-width: 99.3rem;
+  margin: 0 auto;
+}
+
+.frequently-asked-questions .title {
+  color: #101828;
+  font-size: 3.6rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-family: 'Inter', serif;
+  font-optical-sizing: auto;
+}
+
+.frequently-asked-questions .info {
+  color: #868787;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 5rem;
+  text-align: center;
+  font-family: 'Inter', serif;
+  font-optical-sizing: auto;
+}
+.frequently-asked-questions .questions {
+  max-width: 76.8rem;
+  margin: 0 auto;
+}
+.frequently-asked-questions .questions .accordion {
+  max-width: 76.8rem;
+  margin: 0 auto;
+  border-bottom: 1px solid #eaecf0;
+  padding: 2.4rem 0;
+}
+.frequently-asked-questions .accordion .question-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.frequently-asked-questions .accordion .qstn {
+  color: #101828;
+  font-size: 1.8rem;
+  font-weight: 400;
+  /* line-height: 2.8rem; */
+  /* background-color: green; */
+  font-family: 'Inter', serif;
+  font-optical-sizing: auto;
+  /* margin-bottom: 1rem; */
+}
+.frequently-asked-questions .accordion .question-wrapper button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  min-height: 2rem;
+  min-height: 2rem;
+  border: none;
+  background-color: #fff;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+}
+.frequently-asked-questions .accordion .answer-wrapper {
+  height: 0;
+  overflow: hidden;
+  transition: height linear 0.5s;
+  /* margin-top: 1rem; */
+}
+.frequently-asked-questions .accordion .answer-wrapper.show {
+  height: 7rem;
+  transition: height linear 0.5s;
+}
+.frequently-asked-questions .accordion .answer {
+  color: #101828;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 2.8rem;
+  font-family: 'Inter', serif;
+  font-optical-sizing: auto;
+  margin-top: 1rem;
+  /* margin-bottom: 1.5rem; */
+}
