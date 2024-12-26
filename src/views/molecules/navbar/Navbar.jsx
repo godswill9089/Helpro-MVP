@@ -25,15 +25,29 @@ const Navbar = () => {
             >
               Home
             </NavLink>
-            <NavLink className={'text-color'} to='about'>
+            <NavLink
+              className={({ isActive }) => {
+                return isActive ? 'navlink-active' : 'text-color';
+              }}
+              to='/products'
+            >
               Products
               <FaChevronDown />
             </NavLink>
-            <NavLink className={'text-color'} to='about'>
+            <NavLink
+              className={({ isActive }) => {
+                return isActive ? 'navlink-active' : 'text-color';
+              }}
+              to='/faq'
+            >
               FAQ
             </NavLink>
-            <NavLink className={'text-color'} to='about'>
-              {/* <div className='nav-link-btn'> Contact us</div> */}
+            <NavLink
+              className={({ isActive }) => {
+                return isActive ? 'navlink-active' : 'text-color';
+              }}
+              to='/contact-us'
+            >
               Contact us
             </NavLink>
           </div>

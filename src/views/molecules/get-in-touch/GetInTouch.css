@@ -1,0 +1,70 @@
+.get-in-touch {
+  background-color: #fff8f2;
+  /* height: 58.6rem; */
+  padding: 6.3rem 0;
+}
+.get-in-touch .container {
+  max-width: 99.3rem;
+  margin: 0 auto;
+}
+
+.get-in-touch .title {
+  /* color: #cd9929; */
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.get-in-touch .info {
+  color: #868787;
+  font-size: 1.9rem;
+  font-weight: 400;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+.get-in-touch .form {
+  margin-bottom: 4rem;
+}
+.get-in-touch .form .details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2.6rem;
+  margin-bottom: 3rem;
+}
+.get-in-touch .form .input-group {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.6rem;
+  width: 100%;
+}
+.get-in-touch .form .input-group label {
+  font-size: 1.4rem;
+  color: #101828;
+  font-weight: 600;
+}
+.get-in-touch .form .input-group input {
+  font-size: 1.4rem;
+  border: 1px solid #d0d5de;
+  border-radius: 0.6rem;
+  padding: 0 1.2rem;
+  width: 100%;
+  height: 5.6rem;
+}
+.get-in-touch .form .input-group input:focus,
+.get-in-touch .form .input-group textarea:focus {
+  outline: none; /* Removes the default outline */
+}
+.get-in-touch .form .input-group textarea {
+  font-size: 1.4rem;
+  border: 1px solid #d0d5de;
+  border-radius: 0.6rem;
+  padding: 1.2rem 1.2rem;
+  width: 100%;
+  height: 10.6rem;
+  resize: none; /* Disables resizing */
+}
+.get-in-touch .btn {
+  display: flex;
+  justify-content: center;
+}
