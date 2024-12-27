@@ -1,0 +1,104 @@
+.terms-and-conditions-list {
+  background-color: #fff9f2;
+  padding: 5.3rem 9.1rem;
+}
+.terms-and-conditions-list .tab-btns {
+  padding: 0.9rem 1.2rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+}
+.terms-and-conditions-list .tab-btns .tab-btn {
+  width: 13.7rem;
+  height: 3.6rem;
+  border: none;
+  border-radius: 1rem;
+  overflow: hidden;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 1.4rem;
+  background-color: #f7f7f7;
+  color: #354054;
+}
+.terms-and-conditions-list .tab-btns .tab-btn.active {
+  background-color: #fff9f2;
+  color: #cf9a2a;
+}
+.terms-and-conditions-list .lists {
+  display: flex;
+}
+.terms-and-conditions-list .titles {
+  width: 25.1rem;
+}
+.terms-and-conditions-list .titles .intro {
+  /* width: 13.7rem; */
+  width: 12rem;
+  height: 5.6rem;
+  border: none;
+  border-bottom: 1px solid #cf9a2a;
+  overflow: hidden;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 1.4rem;
+  background-color: transparent;
+  color: #cf9a2a;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 2rem;
+}
+.terms-and-conditions-list .lists .titles ul {
+  list-style-type: none;
+  padding: 0;
+}
+.terms-and-conditions-list .lists .titles li {
+  padding: 3rem 2rem;
+  width: 100%;
+  height: 5.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 1.3rem;
+  font-weight: 500;
+  background-color: #fff9f9;
+  /* background-color: green; */
+  border-bottom: 1px solid #e3e7eb;
+}
+.terms-and-conditions-list .list {
+  flex: 1 1 0%;
+  padding: 2rem 0;
+  color: #464545;
+}
+.terms-and-conditions-list .list .group {
+  margin-bottom: 2rem;
+}
+.terms-and-conditions-list .list .title-list,
+.terms-and-conditions-list .list .title-list-2 {
+  font-weight: 600;
+  font-size: 1.4rem;
+  text-decoration: underline;
+  display: inline-block;
+  text-underline-offset: 4px;
+  margin-bottom: 1.4rem;
+}
+.terms-and-conditions-list .list .info-list {
+  font-weight: 400;
+  font-size: 1.3rem;
+  display: inline-block;
+  text-underline-offset: 4px;
+  /* margin-bottom: 2rem; */
+}
+.terms-and-conditions-list .list .title-list-2 {
+  margin-bottom: 0;
+  font-style: italic;
+  text-decoration: none;
+}
+.terms-and-conditions-list .list ul,
+.terms-and-conditions-list .list ol {
+  padding: 0 2rem;
+}
+.terms-and-conditions-list .list li {
+  font-weight: 400;
+  font-size: 1.3rem;
+}
