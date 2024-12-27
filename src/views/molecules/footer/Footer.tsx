@@ -10,6 +10,7 @@ import {
   FaLinkedin,
   FaTwitter,
 } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const { envelope, logo } = getImages();
@@ -38,9 +39,15 @@ const Footer = () => {
               <div className='footer-links'>
                 <p className='title'>Support</p>
                 <div className='links'>
-                  <p className='link'>FAQ</p>
-                  <p className='link'>Contact</p>
-                  <p className='link'>Terms & conditions</p>
+                  <Link to='/faq'>
+                    <p className='link'>FAQ</p>
+                  </Link>
+                  <Link to='/contact-us'>
+                    <p className='link'>Contact</p>
+                  </Link>
+                  <Link to={'/terms-and-conditions'}>
+                    <p className='link'>Terms & conditions</p>
+                  </Link>
                 </div>
               </div>
             </div>

@@ -29,4 +29,7 @@
   font-size: 1.9rem;
   font-weight: 400;
   margin-bottom: 5rem;
+  /* max-width: 81.3rem; */
+  max-width: 70rem;
+  text-align: center;
 }

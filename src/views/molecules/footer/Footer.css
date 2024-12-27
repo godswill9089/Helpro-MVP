@@ -62,6 +62,9 @@
   font-family: 'Gothic A1', serif;
   font-weight: 400;
 }
+.footer .footer-links a {
+  text-decoration: none;
+}
 .footer .follow .title {
   margin-bottom: 1rem;
 }
