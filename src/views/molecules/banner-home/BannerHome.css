@@ -49,7 +49,29 @@
 .banner-wrapper .slider {
   width: 50%;
 }
-
+.banner-wrapper .img-con {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  height: 83.9rem;
+  /* background-color: green; */
+  /* overflow: hidden; */
+}
 .banner-wrapper .slider .img-con img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out; /* Smooth fade-in/out */
   height: 93.9rem;
+}
+.banner-wrapper .img-con img.active {
+  opacity: 1;
+  z-index: 1; /* Ensure active image is on top */
+}
+/*  */
+
+.img-con img {
 }

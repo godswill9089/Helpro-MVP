@@ -2,6 +2,10 @@ import logo from '../assets/images/logo.svg';
 import appleLogo from '../assets/images/apple-logo.svg';
 import googleLogo from '../assets/images/google-logo.svg';
 import bannerHome from '../assets/images/banner-home.svg';
+import bannerHome2 from '../assets/images/banner-home-2.svg';
+import bannerHome3 from '../assets/images/banner-home-3.svg';
+import bannerHome4 from '../assets/images/banner-home-4.svg';
+import bannerHome5 from '../assets/images/banner-home-5.svg';
 import exploreCard1 from '../assets/images/explore-card-1.gif';
 import exploreCard2 from '../assets/images/explore-card-2.gif';
 import exploreCard3 from '../assets/images/explore-card-3.svg';
@@ -28,6 +32,10 @@ export const getImages = () => {
     appleLogo,
     googleLogo,
     bannerHome,
+    bannerHome2,
+    bannerHome3,
+    bannerHome4,
+    bannerHome5,
     exploreCard1,
     exploreCard2,
     exploreCard3,
