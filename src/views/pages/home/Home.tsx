@@ -11,12 +11,12 @@ function Home() {
   return (
     <div className='home'>
       <BannerHome />
-      <Explore />
+      {/* <Explore />
       <ExploreOurServices />
       <Expand />
       <Seeing />
       <SitBack />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }

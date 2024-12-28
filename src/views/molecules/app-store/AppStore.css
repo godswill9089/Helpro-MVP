@@ -12,6 +12,13 @@
   height: 6.3rem;
   /* width: 25rem; */
 }
+@media screen and (max-width: 600px) {
+  .app-store {
+    column-gap: 0.5rem;
+    padding: 0 1rem;
+    height: 4.05rem;
+  }
+}
 .app-store.md {
   column-gap: 0.5rem;
   padding: 0 1rem;
@@ -21,6 +28,12 @@
 .app-store img {
   height: 4.1rem;
   width: 3.6rem;
+}
+@media screen and (max-width: 600px) {
+  .app-store img {
+    height: 2.6rem;
+    width: 2.3rem;
+  }
 }
 .app-store.md img {
   height: 2.6rem;
@@ -39,6 +52,12 @@
   font-size: 1.2rem;
   font-weight: 600;
 }
+@media screen and (max-width: 600px) {
+  .app-store div p {
+    font-size: .8rem;
+    font-weight: 300;
+  }
+}
 .app-store.md div p {
   font-size: 0.7rem;
   font-weight: 300;
@@ -49,6 +68,12 @@
   line-height: 100%;
   font-size: 2.7rem;
   font-weight: 600;
+}
+@media screen and (max-width: 600px) {
+  .app-store div h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
 }
 .app-store.md div h3 {
   font-size: 1.1rem;

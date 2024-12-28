@@ -3,9 +3,11 @@ import './BannerHome.css';
 import { getImages } from '../../../hooks/getImages';
 import { AppContext } from '../../../context/Context';
 import AppStore from '../app-store/AppStore';
+import useWindowSize from '../../../hooks/useWindowSize';
 
 const BannerHome = () => {
   const { theme } = useContext<any>(AppContext);
+  const { isMobile, windowSize } = useWindowSize();
   const { bannerHome, bannerHome2, bannerHome3, bannerHome4, bannerHome5 } =
     getImages();
   const [active, setActive] = useState(1);
@@ -18,7 +20,6 @@ const BannerHome = () => {
     // Cleanup function to clear the interval when the component unmounts
     return () => clearInterval(interval);
   }, []);
-  console.log(active);
   const images = [
     bannerHome,
     bannerHome2,
@@ -32,12 +33,12 @@ const BannerHome = () => {
       <div className='banner'>
         <div className='connection'>
           <h1>
-            <span>Connecting You</span> <br /> with trusted service providers
-            for every need
+            <span>Connecting You</span> {!isMobile && <br />}with trusted
+            service providers for every need
           </h1>
           <p className='find'>
             Find reliable experts for cleaning, repairs and more,
-            <br /> or offer your service to a wide audience
+            {!isMobile && <br />} or offer your service to a wide audience
           </p>
           <div className='btns'>
             <AppStore variant='ios' onClick={() => {}} />

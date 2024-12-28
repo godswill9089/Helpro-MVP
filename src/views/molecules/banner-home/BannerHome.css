@@ -6,11 +6,23 @@
   padding: 11rem 3.5rem 0;
   margin-top: -11rem;
 }
+@media screen and (max-width: 600px) {
+  .banner-wrapper {
+    padding: 8.3rem 2.8rem 0;
+    margin-top: -8.3rem;
+  }
+}
 .banner-wrapper .banner {
   display: flex;
   border-top: 1px solid #e1d7c5;
   /* align-items: center; */
   padding: 0 5.3rem;
+}
+@media screen and (max-width: 600px) {
+  .banner-wrapper .banner {
+    flex-direction: column;
+    padding: 0 1rem;
+  }
 }
 
 .banner-wrapper .banner .connection {
@@ -20,13 +32,25 @@
   /* align-items: center; */
   padding: 11.5rem 0;
 }
+@media screen and (max-width: 600px) {
+  .banner-wrapper .banner .connection {
+    width: 100%;
+    padding: 5.9rem 0 3rem;
+  }
+}
 
 .banner-wrapper .banner .connection h1 {
   /* color: #cd9929; */
   font-size: 4.4rem;
-
   font-weight: 700;
   margin-bottom: 2rem;
+}
+@media screen and (max-width: 600px) {
+  .banner-wrapper .banner .connection h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
 }
 
 .banner-wrapper .banner .connection h1 span {
@@ -39,23 +63,50 @@
   font-weight: 400;
   margin-bottom: 5rem;
 }
+@media screen and (max-width: 600px) {
+  .banner-wrapper .banner .connection .find {
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+}
 
 .banner-wrapper .banner .btns {
   display: flex;
   align-items: center;
   column-gap: 1.2rem;
 }
+@media screen and (max-width: 600px) {
+  .banner-wrapper .banner .btns {
+    justify-content: center;
+  }
+}
 
 .banner-wrapper .slider {
   width: 50%;
+}
+@media screen and (max-width: 600px) {
+  .banner-wrapper .slider {
+    width: 100%;
+    /* background-color: rgba(0, 128, 0, 0.244); */
+  }
 }
 .banner-wrapper .img-con {
   position: relative;
   width: 100%;
   height: 100%;
   height: 83.9rem;
-  /* background-color: green; */
+  /* background-color: rgba(23, 0, 128, 0.162); */
   /* overflow: hidden; */
+}
+@media screen and (max-width: 600px) {
+  .banner-wrapper .img-con {
+    position: relative;
+    width: 100%;
+    /* height: 100%; */
+    height: 63.9rem;
+  }
 }
 .banner-wrapper .slider .img-con img {
   position: absolute;
@@ -66,6 +117,14 @@
   opacity: 0;
   transition: opacity 0.5s ease-in-out; /* Smooth fade-in/out */
   height: 93.9rem;
+}
+@media screen and (max-width: 600px) {
+  .banner-wrapper .slider .img-con img {
+    height: 70rem;
+    object-fit: cover;
+    /* object-fit: contain; */
+    /* background-color: rgba(119, 128, 0, 0.354); */
+  }
 }
 .banner-wrapper .img-con img.active {
   opacity: 1;
