@@ -1,0 +1,90 @@
+@import url('../../../index.css');
+.modal-layout {
+  background: url('../../../assets/images/banner-contact-bg.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #9ca3afac;
+  z-index: 30;
+  display: grid;
+  transition: all linear 0.1s;
+}
+.modal-layout .modal-left {
+  justify-self: end;
+  transition: all linear 0.1s;
+  width: 0;
+}
+@media screen and (max-width: 600px) {
+  .modal-layout .modal-left {
+    justify-self: start;
+  }
+}
+.modal-layout .modal-left.slide {
+  width: 36.2rem;
+}
+@media screen and (max-width: 600px) {
+  .modal-layout .modal-left.slide {
+    width: 100%;
+  }
+}
+.modal-layout .close-modal-wrapper {
+  padding: 0rem 2.8rem;
+  height: 8.3rem;
+  width: 100%;
+}
+.modal-layout .close-modal {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #dbcaba;
+  height: 100%;
+  width: 100%;
+}
+@media screen and (max-width: 600px) {
+  .modal-layout .close-modal {
+    justify-content: space-between;
+  }
+}
+.modal-layout .logo {
+}
+@media screen and (max-width: 600px) {
+  .modal-layout .logo {
+    width: 8.6rem;
+    height: 5.3rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .modal-layout .logo img {
+    width: 8.6rem;
+    height: 5.3rem;
+  }
+}
+.modal-layout .close-modal .btn-close {
+  padding: 8px;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-family: 'Inter', serif;
+  font-optical-sizing: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  height: 4.7rem;
+  min-width: 4.4rem;
+  background-color: #e7eccc;
+  color: #cd9929;
+  border: 1px solid #cd9929;
+}
+@media screen and (max-width: 600px) {
+  .modal-layout .close-modal .btn-close {
+  }
+}
+.modal-layout .close-modal .btn-close .icon{
+  color: #000000;
+  font-size: 2.3rem;
+}

@@ -1,9 +1,15 @@
 /* navbar */
 nav {
   padding: 0rem 9.1rem;
-  min-height: 11rem;
   height: 11rem;
   background-color: transparent;
+}
+@media screen and (max-width: 600px) {
+  nav {
+    padding: 0rem 2.8rem;
+    height: 8.3rem;
+    border-bottom: 1px solid transparent;
+  }
 }
 nav .wrapper {
   display: flex;
@@ -11,20 +17,52 @@ nav .wrapper {
   column-gap: 32.3rem;
   margin: 0 auto;
   height: 100%;
+  width: 100%;
   background-color: transparent;
 }
-
+@media screen and (max-width: 600px) {
+  nav .wrapper {
+    column-gap: 0;
+    justify-content: space-between;
+  }
+}
+nav .logo {
+  /* background-color: green; */
+}
+@media screen and (max-width: 600px) {
+  nav .logo {
+    width: 8.6rem;
+    height: 5.3rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  nav .logo img {
+    width: 8.6rem;
+    height: 5.3rem;
+  }
+}
 nav .pages-btns-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex: 1 1 0%;
+  /* background-color: greenyellow; */
+  /* width: 100%; */
+}
+@media screen and (max-width: 600px) {
+  nav .pages-btns-wrapper {
+    justify-content: flex-end;
+  }
 }
 nav .nav-links {
   display: flex;
   column-gap: 2rem;
 }
-
+@media screen and (max-width: 600px) {
+  nav .nav-links {
+    display: none;
+  }
+}
 nav a {
   text-decoration: none;
   padding: 6px;
@@ -41,16 +79,34 @@ nav a {
 nav .navlink-active {
   color: #cd9929 !important;
 }
+nav .btns-wrapper {
+}
 nav .btns {
   display: flex;
   align-items: center;
   justify-content: center;
   column-gap: 2rem;
 }
+@media screen and (max-width: 600px) {
+  nav .btns {
+    display: none;
+  }
+}
+nav .btns-mobile {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2rem;
+}
+@media screen and (max-width: 600px) {
+  nav .btns-mobile {
+    display: flex;
+  }
+}
 nav button {
   border: 0;
   padding: 8px;
-  border-radius: 4px;
+  border-radius: 1rem;
   cursor: pointer;
   font-family: inherit;
   font-weight: inherit;
@@ -60,18 +116,22 @@ nav button {
   column-gap: 1rem;
   font-size: 1.2rem;
   font-weight: 500;
+  height: 4.7rem;
+  min-width: 4.4rem;
+  /* width: 10rem; */
   /* background: var(--primary); */
 }
-nav button.log-in {
+nav button.outline {
   background-color: #e7eccc;
   color: #cd9929;
   border: 1px solid #cd9929;
 }
-nav button.sign-up {
+nav button.primary {
   background-color: #cd9929;
   color: #fff;
   border: 1px solid #cd9929;
 }
 nav button .icon {
   color: #000000;
+  font-size: 1.9rem;
 }
