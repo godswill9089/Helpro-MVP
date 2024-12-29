@@ -50,9 +50,8 @@
 }
 .expand .details .info {
   font-size: 1.8rem;
-  color: #000000;
+  color: #868787;
   margin-bottom: 1.9rem;
-  font-weight: 100;
 }
 @media screen and (max-width: 600px) {
   .expand .details .info {

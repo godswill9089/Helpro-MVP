@@ -17,8 +17,9 @@
   font-weight: 700;
   font-style: normal;
   margin-bottom: 2rem;
-  max-width: 72.5rem;
+  max-width: 75rem;
   text-align: center;
+  font-family: 'Century Gothic Bold';
 }
 @media screen and (max-width: 600px) {
   .explore .title {

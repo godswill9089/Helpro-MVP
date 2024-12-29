@@ -1,7 +1,7 @@
-import './ContactUs.css';
 import Footer from '../../molecules/footer/Footer';
 import GetInTouch from '../../molecules/get-in-touch/GetInTouch';
 import Banner from '../../molecules/banner/Banner';
+import './ContactUs.css';
 
 function ContactUs() {
   return (

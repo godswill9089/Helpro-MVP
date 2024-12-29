@@ -85,7 +85,7 @@ const ExploreOurServices = () => {
   return (
     <div className='explore-our-services'>
       <div className='top-section'>
-        <h1 className='title'>Explore ourservices & solutions</h1>
+        <h1 className='title'>Explore our Services & solutions</h1>
         <p className='info'>
           From cleaning and equipment repair to lawn care and window cleaning,
           we make it easy to find and book reliable professionals, or to grow

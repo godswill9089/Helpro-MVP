@@ -4,10 +4,10 @@
 }
 .benefit .title {
   font-size: 4rem;
-  font-weight: 900;
   font-style: normal;
   margin-bottom: 1rem;
   text-align: center;
+  font-family: 'Century Gothic Bold';
 }
 .benefit .info {
   font-size: 2.2rem;
@@ -45,6 +45,7 @@
   color: #000000;
   font-size: 1.8rem;
   font-weight: 700;
+  font-family: 'Century Gothic Bold';
 }
 .benefit .card-benefit .card-main .card-info {
   color: #000000;

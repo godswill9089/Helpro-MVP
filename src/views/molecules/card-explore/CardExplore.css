@@ -60,7 +60,7 @@
 }
 .card-explore .details h3 {
   font-size: 1.8rem;
-  font-weight: 700;
+  font-family: 'Century Gothic Bold';
 }
 @media screen and (max-width: 600px) {
   .card-explore .details h3 {

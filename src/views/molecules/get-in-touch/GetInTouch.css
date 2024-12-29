@@ -10,18 +10,24 @@
 
 .get-in-touch .title {
   /* color: #cd9929; */
-  font-size: 4rem;
-  font-weight: 700;
   text-align: center;
+  font-size: 4rem;
+  font-family: 'Montserrat', serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
   margin-bottom: 1rem;
 }
 
 .get-in-touch .info {
   color: #868787;
   font-size: 1.9rem;
-  font-weight: 400;
   margin-bottom: 5rem;
   text-align: center;
+  font-family: 'Montserrat', serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 .get-in-touch .form {
   margin-bottom: 4rem;

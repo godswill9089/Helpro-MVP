@@ -1,6 +1,6 @@
 import React from 'react';
-import './GetInTouch.css';
 import Button from '../button/Button';
+import './GetInTouch.css';
 
 const GetInTouch = () => {
   return (
@@ -25,7 +25,7 @@ const GetInTouch = () => {
             </div>
           </div>
           <div className='input-group'>
-            <label>Full name</label>
+            <label>Message</label>
             <textarea placeholder='Enter text' />
           </div>
         </div>

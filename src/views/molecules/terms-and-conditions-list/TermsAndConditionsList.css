@@ -81,6 +81,7 @@
   display: inline-block;
   text-underline-offset: 4px;
   margin-bottom: 1.4rem;
+  font-family: "Century Gothic Bold";
 }
 .terms-and-conditions-list .list .info-list {
   font-weight: 400;

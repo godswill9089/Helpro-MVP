@@ -71,7 +71,7 @@ const Navbar = () => {
                   onClick={() => {}}
                   width='10.7rem'
                 />
-                <Button text='Sign Up' onClick={() => {}} width='10.7rem' />
+                <Button text='Sign up' onClick={() => {}} width='10.7rem' />
               </div>
               <div className='btns-mobile'>
                 <Button
