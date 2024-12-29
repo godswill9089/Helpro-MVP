@@ -1,13 +1,25 @@
 .explore-our-services {
   background-color: #fff;
-  padding: 0 0 3rem;
+  padding: 0 0 ;
+}
+@media screen and (max-width: 600px) {
+  .explore-our-services {
+    background-color: #fff8f2;
+    padding: 2rem 1.6rem 3rem;
+  }
 }
 .explore-our-services .top-section {
   background-color: #fff8f2;
-  padding: 4.5rem 0 0;
+  padding: 4.5rem 2rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+@media screen and (max-width: 600px) {
+  .explore-our-services .top-section {
+    padding: 2.5rem 0 0;
+    background-color: #fff;
+  }
 }
 .explore-our-services .title {
   font-size: 4rem;
@@ -16,6 +28,13 @@
   max-width: 72.5rem;
   text-align: center;
 }
+@media screen and (max-width: 600px) {
+  .explore-our-services .title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    padding: 0 2rem;
+  }
+}
 .explore-our-services .info {
   font-size: 2.2rem;
   font-weight: 400;
@@ -23,11 +42,32 @@
   max-width: 99.1rem;
   text-align: center;
 }
+@media screen and (max-width: 600px) {
+  .explore-our-services .info {
+    font-size: 1.3rem;
+    font-weight: 100;
+  }
+}
 .explore-our-services .explore-btns {
   display: flex;
   align-items: center;
   column-gap: 0.7rem;
   justify-content: center;
+}
+@media screen and (max-width: 600px) {
+  .explore-our-services .explore-btns {
+    overflow-x: scroll;
+    width: 100%;
+    justify-content: flex-start;
+    /* width: 40rem; */
+  }
+  .explore-our-services .explore-btns::-webkit-scrollbar {
+    display: none;
+  }
+  .explore-our-services .explore-btns {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
 }
 .explore-our-services .explore-btn {
   display: flex;
@@ -45,12 +85,28 @@
   border: 1px solid #d0d5dd;
   color: #344054;
 }
+@media screen and (max-width: 600px) {
+  .explore-our-services .explore-btn {
+    height: 3.6rem;
+    font-size: 1.4rem;
+    min-width: 13rem;
+    padding: 0 1rem;
+  }
+}
 .explore-our-services .explore-btn.active {
   border: 1px solid #cf9a2a;
   color: #1a482b;
 }
 .explore-our-services .cards-explore-our-services-wrapper {
   padding: 7.6rem 7.2rem;
+}
+@media screen and (max-width: 600px) {
+  .explore-our-services .cards-explore-our-services-wrapper {
+    padding: 7.6rem 2rem 3.1rem;
+    background-color: #fff;
+    /* display: none; */
+    /* background-color: green; */
+  }
 }
 .explore-our-services .cards-explore-our-services {
   display: grid;
@@ -59,12 +115,26 @@
   justify-content: center;
   /* background-color: green; */
 }
+@media screen and (max-width: 600px) {
+  .explore-our-services .cards-explore-our-services {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 5rem;
+  }
+}
 .explore-our-services .card-explore-our-services {
-  width: 44.1rem;
+  /* width: 44.1rem; */
   /* height: 38rem; */
   height: 45rem;
   padding: 5rem 3.1rem 5rem;
   width: 100%;
+  /* background-color: rgba(0, 43, 128, 0.341); */
+}
+@media screen and (max-width: 600px) {
+  .explore-our-services .card-explore-our-services {
+    height: 35rem;
+    width: 100%;
+    padding: 3rem 1.5rem 3rem;
+  }
 }
 .explore-our-services .card-explore-our-services.left {
   border-left: 1px solid #345e32;
@@ -74,6 +144,14 @@
 }
 .explore-our-services .card-explore-our-services.bottom {
   border-bottom: 1px solid #345e32;
+}
+.explore-our-services .card-explore-our-services .icon-wrapper {
+}
+@media screen and (max-width: 600px) {
+  .explore-our-services .card-explore-our-services .icon-wrapper {
+    display: flex;
+    justify-content: center;
+  }
 }
 .explore-our-services .card-explore-our-services .icon {
   width: 10rem;
@@ -88,6 +166,23 @@
   background-color: #eae9d0;
   margin-bottom: 2.2rem;
 }
+@media screen and (max-width: 600px) {
+  .explore-our-services .card-explore-our-services .icon {
+    width: 5.2rem;
+    height: 5.2rem;
+    min-width: 5.2rem;
+    min-height: 5.2rem;
+    margin-bottom: 2.2rem;
+  }
+}
+.explore-our-services .card-explore-our-services .icon img {
+}
+@media screen and (max-width: 600px) {
+  .explore-our-services .card-explore-our-services .icon img {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+}
 .explore-our-services .card-explore-our-services .title-wrapper {
   display: flex;
   justify-content: flex-start;
@@ -95,9 +190,23 @@
   align-items: center;
   margin-bottom: 2.2rem;
 }
+@media screen and (max-width: 600px) {
+  .explore-our-services .card-explore-our-services .title-wrapper {
+    justify-content: space-between;
+    column-gap: 0;
+    margin-bottom: 2.2rem;
+  }
+}
 .explore-our-services .card-explore-our-services .title-card {
   font-size: 2.2rem;
   font-weight: 700;
+}
+@media screen and (max-width: 600px) {
+  .explore-our-services .card-explore-our-services .title-card {
+    /* font-size: 1.3rem; */
+    font-size: 1rem;
+    font-weight: 700;
+  }
 }
 .explore-our-services .card-explore-our-services .distance {
   display: flex;
@@ -108,9 +217,17 @@
   background-color: #efffee;
   padding: 0 1rem;
   color: #345e32;
-  font-weight: 900;
+  font-weight: 700;
   font-style: italic;
   font-size: 1.4rem;
+}
+@media screen and (max-width: 600px) {
+  .explore-our-services .card-explore-our-services .distance {
+    height: 2.2rem;
+    min-width: 5.5rem;
+    padding: 0 1rem;
+    font-size: 1.2rem;
+  }
 }
 .explore-our-services .card-explore-our-services .price-wrapper {
   display: flex;
@@ -119,10 +236,23 @@
   column-gap: 1.2rem;
   margin-bottom: 2.2rem;
 }
+@media screen and (max-width: 400px) {
+  .explore-our-services .card-explore-our-services .price-wrapper {
+    column-gap: 0.8rem;
+  }
+}
 .explore-our-services .card-explore-our-services .price {
   color: #345e32;
   font-size: 2rem;
   font-weight: 700;
+}
+@media screen and (max-width: 600px) {
+  .explore-our-services .card-explore-our-services .price {
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+  }
 }
 .explore-our-services .card-explore-our-services .rating-wrapper {
   display: flex;
@@ -133,6 +263,18 @@
   color: #5b5b5b;
   font-size: 1.6rem;
   font-weight: 400;
+  margin: auto 0;
+  padding: 0;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1rem;
+}
+@media screen and (max-width: 600px) {
+  .explore-our-services .card-explore-our-services .number {
+    font-size: 1.4rem;
+  }
 }
 .explore-our-services .card-explore-our-services .stars {
   display: flex;
@@ -145,6 +287,15 @@
   width: 1.6rem;
   height: 1.6rem;
 }
+@media screen and (max-width: 600px) {
+  .explore-our-services .card-explore-our-services .star {
+    min-width: 1.4rem;
+    min-height: 1.4rem;
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-bottom: 0.1rem;
+  }
+}
 .explore-our-services .card-explore-our-services .info-card {
   color: #5b5b5b;
   font-size: 1.6rem;
@@ -152,6 +303,14 @@
   font-family: 'Inter', serif;
   font-optical-sizing: auto;
   margin-bottom: 2.2rem;
+  min-height: 6rem;
+  max-width: 39rem;
+}
+@media screen and (max-width: 600px) {
+  .explore-our-services .card-explore-our-services .info-card {
+    font-size: 1.3rem;
+    font-weight: 300;
+  }
 }
 .explore-our-services .card-explore-our-services button {
   width: 25.3rem;
@@ -164,8 +323,47 @@
   font-optical-sizing: auto;
   font-size: 1.8rem;
   font-weight: 600;
+  /* display: none; */
+}
+@media screen and (max-width: 600px) {
+  .explore-our-services .card-explore-our-services button {
+    width: 14rem;
+    height: 4.3rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
 }
 .explore-our-services .btn-wrapper {
   display: flex;
   justify-content: center;
+  padding-bottom: 4rem;
+  background-color: #fff;
+}
+
+.explore-our-services .bottom-wrapper {
+  background-color: #fff8f2;
+  padding: 0 11rem 4rem;
+}
+@media screen and (max-width: 600px) {
+  .explore-our-services .bottom-wrapper {
+    padding: 0 0rem 4rem;
+  }
+}
+.explore-our-services .sec-bottom {
+  margin: 0 auto;
+  height: 1.5rem;
+  border-radius: 0 0 1rem 1rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -5px -5px 10px rgba(0, 0, 0, 0.1);
+}
+.explore-our-services .bottom-1 {
+  width: 100%;
+  background-color: #599b56;
+}
+.explore-our-services .bottom-2 {
+  width: 96%;
+  background-color: #345e32;
+}
+.explore-our-services .bottom-3 {
+  width: 92%;
+  background-color: #144212;
 }

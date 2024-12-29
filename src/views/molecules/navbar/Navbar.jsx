@@ -2,11 +2,11 @@ import React, { useContext, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { AppContext } from '../../../context/Context';
 import { FaBars, FaChevronDown } from 'react-icons/fa';
-import { BsFillMoonFill, BsFillSunFill } from 'react-icons/bs';
 import './Navbar.css';
 import { getImages } from '../../../hooks/getImages';
 import ModalLayout from '../../layouts/modal-layout/ModalLayout';
 import ModalNavbar from '../../modals/modal-add-transaction/ModalNavbar';
+import Button from '../button/Button';
 const Navbar = () => {
   const { toggleTheme, theme } = useContext(AppContext);
   const { logo } = getImages();
@@ -64,24 +64,30 @@ const Navbar = () => {
           >
             {theme === 'light' ? <BsFillMoonFill /> : <BsFillSunFill />}
           </button> */}
-                <button className='outline'>
-                  Login <FaChevronDown className='icon' />
-                </button>
-                <button
-                  // onClick={() => setShowAddNewTransactionModal(true)}
-                  className='primary'
-                >
-                  Sign Up
-                </button>
+                <Button
+                  variant='outline'
+                  text='Login'
+                  icon={<FaChevronDown />}
+                  onClick={() => {}}
+                  width='10.7rem'
+                />
+                <Button text='Sign Up' onClick={() => {}} width='10.7rem' />
               </div>
               <div className='btns-mobile'>
-                <button className='outline'>Get started</button>
-                <button
+                <Button
+                  variant='outline'
+                  text='Get Started'
+                  onClick={() => {}}
+                  width='10.7rem'
+                  height='4.7rem'
+                />
+                <Button
+                  variant='outline'
                   onClick={() => setShowAddNewTransactionModal(true)}
-                  className='outline'
-                >
-                  <FaBars className='icon' />
-                </button>
+                  width='4.4rem'
+                  height='4.7rem'
+                  icon={<FaBars />}
+                />
               </div>
             </div>
           </div>

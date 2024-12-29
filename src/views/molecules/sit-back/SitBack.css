@@ -8,9 +8,23 @@
   align-items: center;
   height: 100%;
 }
+@media screen and (max-width: 600px) {
+  .sit-back .wrapper {
+    padding: 5.2rem 3.5rem;
+    flex-direction: column;
+    row-gap: 4rem;
+  }
+}
 .sit-back .img-wrapper {
   width: 40%;
   padding: 0 4.3rem;
+  /* background-color: green; */
+}
+@media screen and (max-width: 600px) {
+  .sit-back .img-wrapper {
+    width: 100%;
+    padding: 0 4.3rem;
+  }
 }
 
 .sit-back .img-wrapper .img-con {
@@ -24,8 +38,18 @@
   background-color: #859e84;
   border: 1px solid #fff;
   border-radius: 2rem;
+  margin: 0 auto;
   /* overflow: hidden; */
 }
+@media screen and (max-width: 600px) {
+  .sit-back .img-wrapper .img-con {
+    width: 28.2rem;
+    height: 31.4rem;
+    min-width: 28.2rem;
+    min-height: 31.4rem;
+  }
+}
+
 .sit-back .img-wrapper .img-con img {
   width: 37.2rem;
   height: 41.889rem;
@@ -33,26 +57,59 @@
   min-height: 41.889rem;
   margin-bottom: -4rem;
 }
+@media screen and (max-width: 600px) {
+  .sit-back .img-wrapper .img-con img {
+    width: 23.16rem;
+    height: 25.968rem;
+    min-width: 23.16rem;
+    min-height: 25.968rem;
+    margin-bottom: -2rem;
+  }
+}
 .sit-back .details {
   width: 60%;
   padding: 0 4rem;
+}
+@media screen and (max-width: 600px) {
+  .sit-back .details {
+    width: 100%;
+    padding: 0 0rem;
+  }
 }
 .sit-back .details .title {
   font-size: 4rem;
   font-weight: 300;
   color: #fff;
   margin-bottom: 1.9rem;
+  max-width: 60rem;
+}
+@media screen and (max-width: 600px) {
+  .sit-back .details .title {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+  }
 }
 .sit-back .details .info {
   font-size: 1.8rem;
-  font-weight: 100;
   color: #fff;
   margin-bottom: 1.9rem;
-  font-family: 'Gothic A1', serif;
-  font-weight: 100;
+  font-weight: 300;
+}
+@media screen and (max-width: 600px) {
+  .sit-back .details .info {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 1.9rem;
+  }
 }
 .sit-back .btns {
   display: flex;
   align-items: center;
   column-gap: 1.2rem;
+}
+@media screen and (max-width: 600px) {
+  .sit-back .btns {
+    justify-content: center;
+  }
 }

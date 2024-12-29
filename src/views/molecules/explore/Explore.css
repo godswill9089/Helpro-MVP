@@ -5,18 +5,35 @@
   flex-direction: column;
   row-gap: 5.6rem;
   align-items: center;
+  /* background-color: green; */
+}
+@media screen and (max-width: 600px) {
+  .explore {
+    row-gap: 1.5rem;
+  }
 }
 .explore .title {
   font-size: 4rem;
-  font-family: 'Noto Sans Gothic', serif;
   font-weight: 700;
   font-style: normal;
   margin-bottom: 2rem;
   max-width: 72.5rem;
   text-align: center;
 }
+@media screen and (max-width: 600px) {
+  .explore .title {
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+}
+
 .explore .cards-explore {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
+}
+@media screen and (max-width: 600px) {
+  .explore .cards-explore {
+    gap: 1.2rem;
+  }
 }

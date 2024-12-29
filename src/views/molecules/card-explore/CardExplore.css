@@ -1,7 +1,7 @@
 .card-explore {
   min-width: 45.2rem;
   width: 45.2rem;
-  max-width: 45.2rem !important;
+  max-width: 45.2rem;
   min-height: 38.3rem;
   height: 38.3rem;
   max-height: 38.3rem;
@@ -11,6 +11,18 @@
   justify-content: center;
   padding: 0rem 2.6rem;
   /* Ensures padding and borders are included in the width/height */
+}
+@media screen and (max-width: 600px) {
+  .card-explore {
+    min-width: 17rem;
+    width: 17rem;
+    max-width: 17rem;
+    min-height: 19.5rem;
+    height: 19.5rem;
+    max-height: 19.5rem;
+    padding: 0rem 0.85rem;
+    /* Ensures padding and borders are included in the width/height */
+  }
 }
 .card-explore.card-explore-1 {
   background-color: #eee8e2;
@@ -30,6 +42,12 @@
   margin-bottom: 1.3rem;
   /* margin-bottom: 2rem; */
 }
+@media screen and (max-width: 600px) {
+  .card-explore .img-con {
+    min-height: 10rem;
+    height: 10rem;
+  }
+}
 .card-explore .img-con img {
   height: 100%;
 }
@@ -44,7 +62,17 @@
   font-size: 1.8rem;
   font-weight: 700;
 }
+@media screen and (max-width: 600px) {
+  .card-explore .details h3 {
+    font-size: 1.3rem;
+  }
+}
 .card-explore .details p {
   font-size: 1.8rem;
   font-weight: 400;
+}
+@media screen and (max-width: 600px) {
+  .card-explore .details p {
+    font-size: 1.2rem;
+  }
 }

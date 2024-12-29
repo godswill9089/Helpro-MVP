@@ -33,8 +33,8 @@ const BannerHome = () => {
       <div className='banner'>
         <div className='connection'>
           <h1>
-            <span>Connecting You</span> {!isMobile && <br />}with trusted
-            service providers for every need
+            <span>Connecting You</span> {!isMobile && <br />}with Trusted
+            Service Providers for Every Need
           </h1>
           <p className='find'>
             Find reliable experts for cleaning, repairs and more,

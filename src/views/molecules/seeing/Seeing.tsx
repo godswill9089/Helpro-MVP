@@ -37,6 +37,14 @@ const Seeing = () => {
       img: userSeeing,
       verified: true,
     },
+    {
+      id: 5,
+      name: 'Janet Doe',
+      info: 'Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.',
+      rating: '4.0',
+      img: userSeeing,
+      verified: true,
+    },
   ];
   return (
     <div className='seeing'>

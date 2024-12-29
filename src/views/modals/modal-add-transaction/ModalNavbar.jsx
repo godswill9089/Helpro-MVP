@@ -81,49 +81,53 @@ const ModalNavbar = ({
   return (
     <div className='modal-navbar'>
       <div className='nav-links'>
-        <NavLink
-          className={({ isActive }) => {
-            return isActive ? 'navlink-active' : 'text-color';
-          }}
-          to='/'
-        >
-          Home
-        </NavLink>
-        <NavLink
-          className={({ isActive }) => {
-            return isActive ? 'navlink-active' : 'text-color';
-          }}
-          to='/products'
-        >
-          Products
-          <FaChevronDown />
-        </NavLink>
-        <NavLink
-          className={({ isActive }) => {
-            return isActive ? 'navlink-active' : 'text-color';
-          }}
-          to='/faq'
-        >
-          FAQ
-        </NavLink>
-        <NavLink
-          className={({ isActive }) => {
-            return isActive ? 'navlink-active' : 'text-color';
-          }}
-          to='/contact-us'
-        >
-          Contact us
-        </NavLink>
+        <div className='nav-link' onClick={() => closeModal()}>
+          <NavLink
+            className={({ isActive }) => {
+              return isActive ? 'navlink-active' : 'text-color';
+            }}
+            to='/'
+          >
+            Home
+          </NavLink>
+        </div>
+        <div className='nav-link' onClick={() => closeModal()}>
+          <NavLink
+            className={({ isActive }) => {
+              return isActive ? 'navlink-active' : 'text-color';
+            }}
+            to='/products'
+          >
+            Products
+            <FaChevronDown />
+          </NavLink>
+        </div>
+        <div className='nav-link' onClick={() => closeModal()}>
+          <NavLink
+            className={({ isActive }) => {
+              return isActive ? 'navlink-active' : 'text-color';
+            }}
+            to='/faq'
+          >
+            FAQ
+          </NavLink>
+        </div>
+        <div className='nav-link' onClick={() => closeModal()}>
+          <NavLink
+            className={({ isActive }) => {
+              return isActive ? 'navlink-active' : 'text-color';
+            }}
+            to='/contact-us'
+          >
+            Contact us
+          </NavLink>
+        </div>
       </div>
       <div className='btns'>
         <button className='outline'>
           Login <FaChevronDown className='icon' />
         </button>
-        <button
-          className='primary'
-        >
-          Sign Up
-        </button>
+        <button className='primary'>Sign Up</button>
       </div>
       <form action=''></form>
     </div>

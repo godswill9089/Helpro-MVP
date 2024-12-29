@@ -3,17 +3,13 @@ import './Footer.css';
 import Button from '../button/Button';
 import { getImages } from '../../../hooks/getImages';
 import AppStore from '../app-store/AppStore';
-import {
-  FaEnvelope,
-  FaFacebook,
-  FaInstagram,
-  FaLinkedin,
-  FaTwitter,
-} from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import useWindowSize from '../../../hooks/useWindowSize';
 
 const Footer = () => {
   const { envelope, logo } = getImages();
+  const { isMobile } = useWindowSize();
   return (
     <div className='footer'>
       <div className='wrapper'>
@@ -23,8 +19,16 @@ const Footer = () => {
               <img src={logo} alt='' />
             </div>
             <div className='btns'>
-              <AppStore variant='ios' onClick={() => {}} size='md' />
-              <AppStore variant='android' onClick={() => {}} size='md' />
+              <AppStore
+                variant='ios'
+                onClick={() => {}}
+                size={isMobile ? '' : 'md'}
+              />
+              <AppStore
+                variant='android'
+                onClick={() => {}}
+                size={isMobile ? '' : 'md'}
+              />
             </div>
           </div>
           <div className='footer-links-wrapper'>
@@ -84,7 +88,7 @@ const Footer = () => {
               </label>
               <input id='email' type='text' placeholder='Email address' />
             </div>
-            <Button text='Subscribe' onClick={() => {}} width='12.7rem' />
+            <Button text='Subscribe' onClick={() => {}} width='14rem' />
           </div>
         </div>
       </div>

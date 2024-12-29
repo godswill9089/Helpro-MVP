@@ -4,7 +4,7 @@
 import React, { useState, useEffect } from 'react';
 // import { isMobile as moduleIsMobile } from 'react-device-detect';
 
-const MAX_MOBILE_SCREEN_WIDTH = 499;
+const MAX_MOBILE_SCREEN_WIDTH = 600;
 
 interface IWindow {
   windowSize: { width: number | undefined; height: number | undefined };

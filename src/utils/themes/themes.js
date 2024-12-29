@@ -9,7 +9,7 @@ export const GlobalStyles = createGlobalStyle`
 }
 `;
 export const lightTheme = {
-  card_body_color: '#1C2127',
+  card_body_color: '#000000',
   card_body_bg_color: '#ffffff',
 };
 export const darkTheme = {

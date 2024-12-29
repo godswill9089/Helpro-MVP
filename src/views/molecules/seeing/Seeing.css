@@ -2,12 +2,25 @@
   background-color: #fff8f2;
   padding: 4rem 9.5rem;
 }
+@media screen and (max-width: 600px) {
+  .seeing {
+    background-color: #fff8f2;
+    padding: 3.5rem 0rem 5.5rem;
+  }
+}
 .seeing .title {
   color: #000000;
   font-size: 4rem;
   font-weight: 700;
   text-align: center;
   margin-bottom: 3.1rem;
+}
+@media screen and (max-width: 600px) {
+  .seeing .title {
+    max-width: 30.7rem;
+    font-size: 2rem;
+    margin: 0 auto 1rem;
+  }
 }
 .seeing .info {
   color: #000000;
@@ -16,6 +29,13 @@
   font-family: 'Gothic A1', serif;
   font-weight: 100;
   margin-bottom: 3.9rem;
+}
+@media screen and (max-width: 600px) {
+  .seeing .info {
+    max-width: 30.7rem;
+    font-size: 1.4rem;
+    margin: 0 auto 1.5rem;
+  }
 }
 .seeing .cards-seeing {
   display: flex;

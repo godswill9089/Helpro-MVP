@@ -7,7 +7,7 @@ import Navbar from '../molecules/navbar/Navbar';
 
 const Layout = () => {
   return (
-    <div className='root-layout card-body'>
+    <div className='root-layout'>
       {/* <ScrollRestoration /> */}
       <Navbar />
       <main>

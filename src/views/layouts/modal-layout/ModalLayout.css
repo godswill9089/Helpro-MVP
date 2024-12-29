@@ -12,11 +12,11 @@
   background-color: #9ca3afac;
   z-index: 30;
   display: grid;
-  transition: all linear 0.1s;
+  /* transition: all linear 0.1s; */
 }
 .modal-layout .modal-left {
   justify-self: end;
-  transition: all linear 0.1s;
+  /* transition: all linear 0.01s; */
   width: 0;
 }
 @media screen and (max-width: 600px) {

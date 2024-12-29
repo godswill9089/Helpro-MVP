@@ -15,7 +15,7 @@ const ModalLayout = ({ closeModal, children }) => {
       setShowChildren(false);
       setTimeout(() => {
         closeModal();
-      }, 100);
+      }, 0);
     }
   };
   const handleClickCloseBtn = () => {
@@ -23,13 +23,13 @@ const ModalLayout = ({ closeModal, children }) => {
     setShowChildren(false);
     setTimeout(() => {
       closeModal();
-    }, 100);
+    }, 0);
   };
   useEffect(() => {
     setSlide(true);
     setTimeout(() => {
       setShowChildren(true);
-    }, 100);
+    }, 0);
   }, []);
 
   return (

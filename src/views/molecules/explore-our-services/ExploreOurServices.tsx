@@ -1,12 +1,11 @@
-import React, { useContext, useState } from 'react';
+import React, { useState } from 'react';
 import './ExploreOurServices.css';
 import { getImages } from '../../../hooks/getImages';
-
-import CardExplore from '../card-explore/CardExplore';
-import { FaStar } from 'react-icons/fa';
 import Button from '../button/Button';
+import useWindowSize from '../../../hooks/useWindowSize';
 
 const ExploreOurServices = () => {
+  const { isMobile } = useWindowSize();
   const { exploreCardIcon, ratingStar } = getImages();
   const exploreBtns = [
     { id: 1, title: 'Cleaning' },
@@ -29,7 +28,7 @@ const ExploreOurServices = () => {
       rating: '4.0',
       distance: '23 km',
       icon: exploreCardIcon,
-      borders: ['bottom'],
+      borders: isMobile ? ['bottom'] : ['bottom'],
     },
     {
       id: 2,
@@ -39,7 +38,7 @@ const ExploreOurServices = () => {
       rating: '4.0',
       distance: '23 km',
       icon: exploreCardIcon,
-      borders: ['bottom', 'left', 'right'],
+      borders: isMobile ? ['bottom', 'left'] : ['bottom', 'left', 'right'],
     },
     {
       id: 3,
@@ -49,7 +48,7 @@ const ExploreOurServices = () => {
       rating: '4.0',
       distance: '23 km',
       icon: exploreCardIcon,
-      borders: ['bottom'],
+      borders: isMobile ? ['bottom'] : ['bottom'],
     },
     {
       id: 4,
@@ -59,7 +58,7 @@ const ExploreOurServices = () => {
       rating: '4.0',
       distance: '23 km',
       icon: exploreCardIcon,
-      borders: [],
+      borders: isMobile ? ['left', 'bottom'] : [],
     },
     {
       id: 5,
@@ -69,17 +68,17 @@ const ExploreOurServices = () => {
       rating: '4.0',
       distance: '23 km',
       icon: exploreCardIcon,
-      borders: ['left', 'right'],
+      borders: isMobile ? [] : ['left', 'right'],
     },
     {
-      id: 5,
+      id: 6,
       title: 'Rubbish removal',
       info: 'Include dusting, sweeping, vacuuming, or mopping  surfaces and steam cleaning',
       price: '$30/hr',
       rating: '4.0',
       distance: '23 km',
       icon: exploreCardIcon,
-      borders: [],
+      borders: isMobile ? ['left'] : [],
     },
   ];
 
@@ -115,8 +114,10 @@ const ExploreOurServices = () => {
               key={card.id}
               className={`card-explore-our-services ${card.borders.join(' ')}`}
             >
-              <div className='icon'>
-                <img src={card.icon} alt='explore card icon' className='' />
+              <div className='icon-wrapper'>
+                <div className='icon'>
+                  <img src={card.icon} alt='explore card icon' className='' />
+                </div>
               </div>
               <div className='title-wrapper'>
                 <h5 className='title-card'>{card.title}</h5>
@@ -127,11 +128,11 @@ const ExploreOurServices = () => {
                 <div className='rating-wrapper'>
                   <div className='number'>{card.rating}</div>
                   <div className='stars'>
-                    <img src={ratingStar} alt='rating star' className='' />
-                    <img src={ratingStar} alt='rating star' className='' />
-                    <img src={ratingStar} alt='rating star' className='' />
-                    <img src={ratingStar} alt='rating star' className='' />
-                    <img src={ratingStar} alt='rating star' className='' />
+                    <img src={ratingStar} alt='rating star' className='star' />
+                    <img src={ratingStar} alt='rating star' className='star' />
+                    <img src={ratingStar} alt='rating star' className='star' />
+                    <img src={ratingStar} alt='rating star' className='star' />
+                    <img src={ratingStar} alt='rating star' className='star' />
                   </div>
                 </div>
               </div>
@@ -142,7 +143,16 @@ const ExploreOurServices = () => {
         </div>
       </div>
       <div className='btn-wrapper'>
-        <Button text='See more' onClick={() => {}} />
+        <Button
+          text='See more'
+          onClick={() => {}}
+          width={isMobile ? '15.8rem' : ''}
+        />
+      </div>
+      <div className='bottom-wrapper'>
+        <div className='sec-bottom bottom-1'></div>
+        <div className='sec-bottom bottom-2'></div>
+        <div className='sec-bottom bottom-3'></div>
       </div>
     </div>
   );

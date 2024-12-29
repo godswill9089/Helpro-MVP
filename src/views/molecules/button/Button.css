@@ -7,11 +7,26 @@
   font-size: 1.8rem;
   font-weight: 600;
   cursor: pointer;
-  border: 1px solid #cd9929;
+  border: 1.5px solid #cd9929;
   background-color: #cd9929;
   color: #fff;
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+  justify-content: center;
+}
+@media screen and (max-width: 600px) {
+  .btn-main {
+    font-size: 1.4rem;
+  }
 }
 .btn-main.outline {
-  background-color: #fff;
+  background-color: transparent;
   color: #cd9929;
+}
+.btn-main .icon {
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
